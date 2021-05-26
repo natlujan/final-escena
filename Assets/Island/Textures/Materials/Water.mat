@@ -84,6 +84,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_a4452d934e784c5a9cc76c852cf05017: 0.576
     - Vector1_acc0f2acb17b4345ba8350f28b948511: 0.059
@@ -119,8 +120,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - Color_0f88b2d91da54c5581429c94fcc1a572: {r: 0.9063902, g: 0, b: 1, a: 0.4901961}
-    - Color_cd4e8f5e04674fa8969256fe2275ccec: {r: 0.9293728, g: 0, b: 1, a: 0.8941177}
+    - Color_0f88b2d91da54c5581429c94fcc1a572: {r: 0.1990477, g: 0.66489816, b: 0.6698113, a: 0.4901961}
+    - Color_cd4e8f5e04674fa8969256fe2275ccec: {r: 0.04223035, g: 0.53823614, b: 0.6886792, a: 0.8941177}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0.39215687}
     - _Color: {r: 1, g: 1, b: 1, a: 0.39215687}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
