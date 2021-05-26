@@ -62,8 +62,10 @@ Toon Shading Creamos dentro de la carpeta de shaders un grafo de Shader Graph. D
 
 Al final del proyecto llegamos a tener una escena con sus ambientaciones que queríamos, todo utilizando los modelos de luz, simulaciones de viento y agua daba un efecto bastante grato y quedamos satisfechos con el resultado. Creemos que faltan muchos detalles a afinar para la mejora del proyecto pero se aprendió el manejo y creación de cada uno de los efectos y puntos que fuimos añadiendo al proyecto. 
 
+ ![image](https://user-images.githubusercontent.com/69810414/119700909-a4de9b00-be08-11eb-8231-f9a44fb0f986.png)
+
  
- 
+![image](https://user-images.githubusercontent.com/69810414/119700927-a90ab880-be08-11eb-9b9c-81ad411d1dbe.png)
 
 
 
