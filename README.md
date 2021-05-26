@@ -23,6 +23,8 @@ Comenzamos creando un proyecto de Unity limpio con el procedimiento que siempre 
 
 Creación del pasto en movimiento (Flower). 
 
+![image](https://user-images.githubusercontent.com/69810414/119700438-0fdba200-be08-11eb-9c20-5720abb61f48.png)
+
 En este shader se comienzan a crear distintas variables con sus propiedades correspondientes. Se crea un Albedo que será el color base. Normal Intensity que es para regular la textura. Wind Intensity este como dice el nombre es para controlar la intensidad del viento. Noise Intensity que es para poder regular y controlar el ruido de la textura en cuanto a deformación. 
  
 
@@ -30,17 +32,26 @@ Aún con todo esto no se tendrá todavía movimiento en el pasto o palmera, para
 
 Una vez realizado esto usamos la posición del modelo, y se separan los ejes X, Y y Z. El eje X pasa a un Add, donde se suma con el ruido creado anteriormente, que es lo que causa que se mueva el shader en eje X, mientras que el eje Y y el eje Z se mantienen igual. Cuando se tiene todo se combinan los ejes para ser un Lerp, que tiene como entradas la posición del modelo junto con la variable Y del UV. Todo esto pasa a un Transform de tipo world, la salida se enlaza con el nodo Position (3) de Vertex.
 
- 
+ ![image](https://user-images.githubusercontent.com/69810414/119700571-3ac5f600-be08-11eb-9945-2c279edb38da.png)
+
+![image](https://user-images.githubusercontent.com/69810414/119700687-5fba6900-be08-11eb-8e50-b5cf37aada47.png)
+
  
 
 La creación del Agua. 
+
+![image](https://user-images.githubusercontent.com/69810414/119700792-81b3eb80-be08-11eb-9bb4-95879ddda598.png)
+
 
 En la creación de Agua y sus respectivas propiedades de movimiento. Se crearon distintas variables, la llamada Depth para el control de la profundidad. Dos vectores más para la distinta tonalidad del agua si está cerca de la orilla sería un Clean Water, y si está lejos será un Dark Water. Normal que será la textura normal. Strength que es para controlar la fuerza del movimiento de las olas. Displacement para el control de la marea y para finalizar el Smooth que es el brillo del agua. 
 
  
 
 Toon Shading Creamos dentro de la carpeta de shaders un grafo de Shader Graph. Dentro crearemos el nodo de color, agregamos el Dabs que nos ayuda a dar contornos al Toon Shading. Agregamos un Hlsl llamado Direct Specular con sus smooth, Specular, Direction y Color. Todo esto se conectó con la el Main Light. Todo esto dará un efecto como de mala calidad queriendo dar la sensación de cartoon.
+
+
  
+![image](https://user-images.githubusercontent.com/69810414/119700813-89739000-be08-11eb-9585-5d0519bbf694.png)
 
 
 
